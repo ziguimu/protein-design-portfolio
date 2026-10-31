@@ -50,7 +50,7 @@ Original code is MIT licensed where rights are established. Original documentati
 | [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R 论文复现中的序列设计、ColabFold、Boltz-2、PCANN 与恢复阶段 | 七个归档已发布；4,055 个唯一归档路径校验通过；复现偏差有记录 |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | 三轮候选设计、原始结果、失败分析和结论更正 | 归档已发布；4,338 个文件校验通过；五个计算候选尚未实验验证 |
 | [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | mutant/WT/apo 对照下的 KRAS G12D pMHC 结合剂设计和筛选 | Challenge 5 检查点记录合格序列为零；当前 BoltzGen 运行及历史产物待最终归档 |
-| [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | 可复用工作流、模板、审计工具和有边界的案例证据 | 技能源码与模板已发布；案例记录仍在进行隐私和权利审查 |
+| [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | 可复用工作流、模板、审计工具和有边界的案例证据 | 技能源码、模板、有限范围的验证报告和精选脱敏案例已发布；其他记录仍在进行隐私和权利审查 |
 
 ### 共用流程与证据边界
 
