@@ -11,7 +11,7 @@ A portfolio of computational protein-design projects, structural evaluations, re
 | [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign) | EGFR binder design and EGFR/TNF control-based structural evaluation; includes the original 28-slide report | EGFR and TNF source archives published; 1,588 files restored and SHA-256 checked |
 | [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R paper reproduction across sequence design, ColabFold, Boltz-2, PCANN and recovery stages | Seven source archives published; 4,055 unique archive paths restored and checked; reproduction deviations are recorded |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | Three rounds of TfR1 candidate design, source results, failure analysis and corrected claims | Source archive published; 4,338 files restored and checked; five computational candidates remain unvalidated |
-| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Final archive includes the prior 864-design checkpoint and a 32-design follow-on screen; one candidate entered three-seed mutant/WT/apo confirmation, but none passed. Cumulative: 896 unique designs, zero qualified; computational only |
+| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Final archive includes the prior 864-design checkpoint, a 32-design follow-on screen with one unqualified confirmation candidate, and a later 32-sequence Asp6 batch whose mutant gate passed 0/32. The Asp6 sequences were all historical duplicates, so cumulative unique remains 896; zero qualified, computational only |
 | [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | Reusable design workflow, templates, audit utilities and bounded case evidence | Source, templates, a bounded validation report, and selected de-identified cases published; additional records remain under privacy and rights review |
 
 ## Shared workflow and evidence standards
@@ -33,8 +33,9 @@ Large source trees are distributed as versioned GitHub Release assets rather tha
 - [TfR1 source archive](https://github.com/ziguimu/TfR1-binder-design/releases/tag/archive-2026-10-31)
 - [KRAS original archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31)
 - [KRAS follow-on screen archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2)
+- [KRAS Asp6 follow-on archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch3)
 
-The original KRAS archive restored 25,266 files; the follow-on package restored 516 manifest-listed files (467 byte-identical source files and 49 privacy-transformed text files). The complete ChatGPT account export remains local and is not included.
+The original KRAS archive restored 25,266 files; the first follow-on package restored 516 manifest-listed files (467 byte-identical source files and 49 privacy-transformed text files); the Asp6 package restored 1,119 files (1,079 byte-identical and 40 privacy-transformed). The complete ChatGPT account export remains local and is not included.
 
 ## Licenses
 
