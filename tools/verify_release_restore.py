@@ -36,15 +36,27 @@ def main() -> int:
             report["zip_crc_error"] = bad
             if bad:
                 raise ValueError(f"ZIP CRC check failed for {bad}")
-            if "MANIFEST.json" not in names:
-                raise ValueError("MANIFEST.json missing")
-            manifest = json.loads(zf.read("MANIFEST.json"))
+            manifest_member = next((n for n in names if n.lower() == "manifest.json"), None)
+            if manifest_member is None:
+                legacy = [n for n in names if PurePosixPath(n).name.startswith("archive_manifest_")
+                          and PurePosixPath(n).suffix.lower() == ".json"]
+                if len(legacy) != 1:
+                    raise ValueError("MANIFEST.json or exactly one archive_manifest_*.json missing")
+                manifest_member = legacy[0]
+            manifest = json.loads(zf.read(manifest_member))
             files = manifest.get("files")
             if not isinstance(files, list):
                 raise ValueError("manifest.files must be an array")
+            # Earlier project ZIPs used bytes/sha256; current assets use
+            # published_bytes/published_sha256 and may include redaction metadata.
+            files = [dict(item,
+                          published_bytes=item.get("published_bytes", item.get("bytes")),
+                          published_sha256=item.get("published_sha256", item.get("sha256")),
+                          source_sha256=item.get("source_sha256", item.get("sha256", "")))
+                     for item in files]
             report["files_expected"] = len(files)
             member_map = {i.filename: i for i in zf.infolist()}
-            expected_members = {"MANIFEST.json"}
+            expected_members = {manifest_member}
             root = args.dest.resolve() if args.dest else None
             if root:
                 root.mkdir(parents=True, exist_ok=True)
