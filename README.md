@@ -9,7 +9,7 @@ A portfolio of computational protein-design projects, structural evaluations, re
 | Project | Research question and materials | Current status |
 |---|---|---|
 | [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign) | EGFR binder design and EGFR/TNF control-based structural evaluation; includes the original 28-slide report | EGFR and TNF source archives published; 1,588 files restored and SHA-256 checked |
-| [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R paper reproduction across sequence design, ColabFold, Boltz-2, PCANN and recovery stages | Seven source archives published; 3,835 files restored and checked; reproduction deviations are recorded |
+| [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R paper reproduction across sequence design, ColabFold, Boltz-2, PCANN and recovery stages | Seven source archives published; 4,055 unique archive paths restored and checked; reproduction deviations are recorded |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | Three rounds of TfR1 candidate design, source results, failure analysis and corrected claims | Source archive published; 4,338 files restored and checked; five computational candidates remain unvalidated |
 | [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Challenge 5 checkpoint reports zero qualified sequences; the active BoltzGen run and historical outputs are awaiting final archival |
 | [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | Reusable design workflow, templates, audit utilities and bounded case evidence | Source and templates published; case records remain under privacy and rights review |
@@ -47,7 +47,7 @@ Original code is MIT licensed where rights are established. Original documentati
 | 项目 | 研究内容 | 当前状态 |
 |---|---|---|
 | [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign) | EGFR 结合剂设计、EGFR/TNF 对照结构评价及原始 28 页报告 | EGFR 与 TNF 归档已发布；1,588 个文件下载恢复并通过 SHA-256 校验 |
-| [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R 论文复现中的序列设计、ColabFold、Boltz-2、PCANN 与恢复阶段 | 七个归档已发布；3,835 个文件校验通过；复现偏差有记录 |
+| [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R 论文复现中的序列设计、ColabFold、Boltz-2、PCANN 与恢复阶段 | 七个归档已发布；4,055 个唯一归档路径校验通过；复现偏差有记录 |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | 三轮候选设计、原始结果、失败分析和结论更正 | 归档已发布；4,338 个文件校验通过；五个计算候选尚未实验验证 |
 | [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | mutant/WT/apo 对照下的 KRAS G12D pMHC 结合剂设计和筛选 | Challenge 5 检查点记录合格序列为零；当前 BoltzGen 运行及历史产物待最终归档 |
 | [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | 可复用工作流、模板、审计工具和有边界的案例证据 | 技能源码与模板已发布；案例记录仍在进行隐私和权利审查 |
@@ -83,3 +83,4 @@ The project READMEs link to the available redacted scientific conversation recor
 ### 对话来源
 
 各项目 README 链接到可访问的脱敏科研对话及其覆盖说明。完整 ChatGPT 账户导出仍保留在本地；附件或来源覆盖未确认的记录会明确说明。
+
