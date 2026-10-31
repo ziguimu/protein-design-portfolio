@@ -75,3 +75,11 @@ RFdiffusion、ProteinMPNN、GPD、PCANN、ESM 和结构预测软件等第三方�
 - `tools/guarded_cleanup.py` is dry-run by default. It accepts only explicit per-file path/hash entries, constrains them to a chosen root, and skips unauthorized, changed, missing, symlinked, outside-root, and active paths/PIDs. Use `--apply` only after a release restore has passed.
 
 These tools check archive integrity and cleanup preconditions; they do not validate scientific results.
+
+## Conversation provenance
+
+The project READMEs link to the available redacted scientific conversation records and their coverage notes. The full ChatGPT account export remains local; records with unresolved attachment or source coverage say so explicitly.
+
+### 对话来源
+
+各项目 README 链接到可访问的脱敏科研对话及其覆盖说明。完整 ChatGPT 账户导出仍保留在本地；附件或来源覆盖未确认的记录会明确说明。
