@@ -68,3 +68,10 @@ RFdiffusion、ProteinMPNN、GPD、PCANN、ESM 和结构预测软件等第三方�
 
 原创代码在权利明确时采用 MIT；原创文档和数据在权利明确时采用 CC BY 4.0。第三方材料保留原许可，详见 [LICENSE-DATA.md](LICENSE-DATA.md)。
 
+
+## Integrity and cleanup tools
+
+- `tools/verify_release_restore.py` checks ZIP CRCs, manifest membership, traversal/symlink safety, file sizes and SHA-256; it can restore into a new empty directory. It reports whether each published file is byte-identical to its source hash or is a privacy-transformed copy.
+- `tools/guarded_cleanup.py` is dry-run by default. It accepts only explicit per-file path/hash entries, constrains them to a chosen root, and skips unauthorized, changed, missing, symlinked, outside-root, and active paths/PIDs. Use `--apply` only after a release restore has passed.
+
+These tools check archive integrity and cleanup preconditions; they do not validate scientific results.
