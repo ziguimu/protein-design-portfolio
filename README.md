@@ -10,7 +10,7 @@ This portfolio links projects with distinct targets, inputs, methods, and eviden
 
 ## Provenance and status
 
-This repository is being prepared from existing local work. File-level provenance, source hashes, release manifests, and restoration checks will accompany the archived materials. The current README does not claim that the full archive has already been published or verified.
+This repository is being prepared from existing local work. File-level provenance, source hashes, release manifests, and restoration checks will accompany the archived materials. Archived EGFR/TNF, GLP1R, and TfR1 releases have been downloaded and checked against their per-file manifests. KRAS remains pending while its BoltzGen job runs; additional source and license audits remain in progress.
 
 ## Projects
 
@@ -36,8 +36,8 @@ Original code: MIT, where rights are established. Original documentation and dat
 
 ## Repositories
 
-- [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign): EGFR design and EGFR/TNF benchmark work
-- [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction): GLP1R sequence design and computational evaluation
-- [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design): TfR1 candidate design and evidence audit
-- [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design): KRAS G12D pMHC computational design
+- [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign): EGFR design and EGFR/TNF benchmark work; source archives and SHA-256 manifests are published [in Releases](https://github.com/ziguimu/AI-BinderDesign/releases/tag/archive-2026-10-31)
+- [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction): GLP1R sequence design and computational evaluation; seven source archives are published [in Releases](https://github.com/ziguimu/GLP1R-reproduction/releases/tag/archive-2026-10-31)
+- [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design): TfR1 candidate design and evidence audit; source archive is published [in Releases](https://github.com/ziguimu/TfR1-binder-design/releases/tag/archive-2026-10-31)
+- [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design): KRAS G12D pMHC computational design; archive preparation waits for the active BoltzGen job to stop
 - [ai-protein-design](https://github.com/ziguimu/ai-protein-design): workflow and evidence-bounded case archive
