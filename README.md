@@ -26,7 +26,7 @@ The project records document user-directed research questions, choices, interpre
 
 ## Restore and verify
 
-Large source trees are distributed as versioned GitHub Release assets rather than ordinary Git history. Each archive includes a file-level manifest with original source path, archive path, byte count and SHA-256. Restoration reports record the checked file counts. Current validated releases:
+Large source trees are distributed as versioned GitHub Release assets rather than ordinary Git history. Each archive includes a file-level manifest with project-relative source path, archive path, byte count and SHA-256. Absolute workstation paths are omitted. For transformed text files, the manifest records source and published hashes separately and reports the redaction count; source copies of transformed text remain local. Restoration reports record checked file counts. Current validated releases:
 
 - [AI-BinderDesign archive](https://github.com/ziguimu/AI-BinderDesign/releases/tag/archive-2026-10-31)
 - [GLP1R reproduction archives](https://github.com/ziguimu/GLP1R-reproduction/releases/tag/archive-2026-10-31)
@@ -64,7 +64,7 @@ RFdiffusion、ProteinMPNN、GPD、PCANN、ESM 和结构预测软件等第三方�
 
 ### 恢复与校验
 
-大型原始目录作为带版本的 GitHub Release 附件发布。每个归档含原始来源路径、归档路径、字节数和 SHA-256 的逐文件清单；恢复报告记录核验数量。目前完成恢复核验的归档为：AI-BinderDesign、GLP1R-reproduction 和 TfR1。KRAS 将在当前任务结束并检查输出后归档。完整 ChatGPT 账户导出按用户要求留在本地，不在此公开。
+大型原始目录作为带版本的 GitHub Release 附件发布。每个归档含项目相对来源路径、归档路径、字节数和 SHA-256 的逐文件清单，不公开本机绝对路径。脱敏改写的文本文件分别记录源件与发布件哈希及替换次数；相应源文本留在本地。恢复报告记录核验数量。目前完成恢复核验的归档为：AI-BinderDesign、GLP1R-reproduction 和 TfR1。KRAS 将在当前任务结束并检查输出后归档。完整 ChatGPT 账户导出按用户要求留在本地，不在此公开。
 
 原创代码在权利明确时采用 MIT；原创文档和数据在权利明确时采用 CC BY 4.0。第三方材料保留原许可，详见 [LICENSE-DATA.md](LICENSE-DATA.md)。
 

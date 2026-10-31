@@ -13,7 +13,7 @@ This portfolio groups work by project, target and computational stage. It does n
 
 ## Archive format
 
-Git tracks source code, explanatory documents, small summary tables and selected inputs/results. Large source trees are attached to versioned Releases in chunks below 512 MiB. Each archive carries a manifest recording source path, archive path, bytes and SHA-256. A restore check downloads each asset into a clean directory, extracts it and compares every listed file. The corresponding project report records the result and any exceptions.
+Git tracks source code, explanatory documents, small summary tables and selected inputs/results. Large source trees are attached to versioned Releases in chunks below 512 MiB. Each archive carries a manifest recording a project-relative source path, archive path, published bytes and SHA-256. Absolute workstation paths are omitted. Text files changed for privacy also record the original source bytes/hash, published bytes/hash, and redaction count; the original text copies stay local. A restore check downloads each asset into a clean directory, extracts it and compares every listed published file. The corresponding project report records the result and any exceptions.
 
 ## Third-party materials
 
