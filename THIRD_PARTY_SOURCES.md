@@ -29,10 +29,11 @@ Checked on 2026-10-31. This register records tools found in the scoped workspace
 | RFdiffusion | 骨架生成和 smoke 示例 | [RosettaCommons/RFdiffusion](https://github.com/RosettaCommons/RFdiffusion) | 上游声明 BSD 许可。保留来源归属；用户运行结果和修改分开存放，本次没有复制上游源码。 |
 | ProteinMPNN | 逆折叠和序列生成 | [dauparas/ProteinMPNN](https://github.com/dauparas/ProteinMPNN) | 上游 LICENSE 为 MIT。保留归属；项目运行结果独立记录。 |
 | ColabFold | 结构预测及 GLP1R/EGFR 历史流程 | [sokrypton/ColabFold](https://github.com/sokrypton/ColabFold) | 源码仓库为 MIT；AlphaFold/ColabFold 权重及远程服务数据另有各自条款。本表不分发权重。 |
-| Boltz / Boltz-2 | 结构预测和分析 | [jwohlwohlwend/boltz](https://github.com/jwohlwend/boltz) | 上游声明代码和权重为 MIT。项目输入与引用文件仍按其来源另行处理。 |
+| Boltz / Boltz-2 | 结构预测和分析 | [jwohlwend/boltz](https://github.com/jwohlwend/boltz) | 上游声明代码和权重为 MIT。项目输入与引用文件仍按其来源另行处理。 |
 | BoltzGen | KRAS G12D 设计与逆折叠运行；本地环境记录版本 0.3.2 | [HannesStark/boltzgen](https://github.com/HannesStark/boltzgen) | 上游源码为 MIT。本地检查点/缓存继续留存；待逐项确认文件来源与许可前不上传。 |
 | ESM | PCANN 依赖和本地模型缓存 | [facebookresearch/esm](https://github.com/facebookresearch/esm) | 上游源码 LICENSE 为 MIT。本地 2.60 GB ESM-2 权重留在本地；尚未对该下载文件本身的条款完成独立确认，因此不再分发。 |
 | GPD | 本地序列设计源码克隆 | [decodermu/GPD](https://github.com/decodermu/GPD) | GitHub 元数据未声明许可，仓库顶层也无 LICENSE。本地克隆修改了 requirements 和示例 FASTA，并包含未跟踪产物。权利确认前不分发源码或个人修改。 |
 | PCANN | 本地预测源码和预训练结果 | [bionmr-spbu-projects/PCANN](https://github.com/bionmr-spbu-projects/PCANN) 及其 `setup.py` 指向的 [OOLebedenko/PCANN](https://github.com/OOLebedenko/PCANN) | 两个候选仓库的 GitHub 元数据都未声明许可，顶层没有 LICENSE。本地源码和权重留存；ESM 子目录中源码的 MIT 许可不覆盖 PCANN 包或其权重。 |
 
 第三方检查点、下载参考数据和缓存默认不进入公开仓库，除非其特定再分发条款已确认。上游克隆中的本地改动不会被覆盖或静默删除；未记录版本时明确标为未知。
+
