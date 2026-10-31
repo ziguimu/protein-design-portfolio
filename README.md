@@ -33,3 +33,11 @@ Original code: MIT, where rights are established. Original documentation and dat
 当前正在从本地项目整理本仓库。文件来源、哈希、Release 清单和恢复校验将随归档资料提供；本 README 不表示完整归档已发布或验证。
 
 原创代码在权利明确时采用 MIT 许可；原创文档和数据在权利明确时采用 CC BY 4.0。第三方软件、权重、论文和数据沿用原许可，详见逐项来源记录。
+
+## Repositories
+
+- [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign): EGFR design and EGFR/TNF benchmark work
+- [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction): GLP1R sequence design and computational evaluation
+- [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design): TfR1 candidate design and evidence audit
+- [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design): KRAS G12D pMHC computational design
+- [ai-protein-design](https://github.com/ziguimu/ai-protein-design): workflow and evidence-bounded case archive
