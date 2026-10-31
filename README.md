@@ -16,7 +16,7 @@ A portfolio of computational protein-design projects, structural evaluations, re
 
 ## Shared workflow and evidence standards
 
-Projects preserve their actual stages and source organization. Shared practice includes recording target and construct identity, input provenance, software/environment details where available, historical commands, screening criteria, positive and negative controls, source hashes, and the difference between predicted structure and experimental evidence. Missing history is labeled rather than reconstructed from assumptions. See [methods and provenance](METHODS.md) and [project status](PROJECTS_STATUS.md).
+Projects preserve their actual stages and source organization. Shared practice includes recording target and construct identity, input provenance, software/environment details where available, historical commands, screening criteria, positive and negative controls, source hashes, and the difference between predicted structure and experimental evidence. Missing history is labeled rather than reconstructed from assumptions. See [methods and provenance](METHODS.md), [third-party sources and license status](THIRD_PARTY_SOURCES.md), and [project status](PROJECTS_STATUS.md).
 
 Third-party tools and weights (including RFdiffusion, ProteinMPNN, GPD, PCANN, ESM and structure-prediction packages) remain attributed to their owners and retain their own licenses. Project-specific modifications and outputs are kept distinct from upstream source. See each repository's `LICENSE-DATA.md` and provenance records.
 
@@ -54,7 +54,7 @@ Original code is MIT licensed where rights are established. Original documentati
 
 ### 共用流程与证据边界
 
-项目保留各自真实阶段与来源结构。共用方法包括记录靶标及构建体、输入来源、软件环境、历史命令、筛选标准、正负对照、文件哈希，并区分预测结构与实验依据。历史信息缺失时会明确标注，不凭推测补写。详见[方法与来源](METHODS.md)及[项目状态](PROJECTS_STATUS.md)。
+项目保留各自真实阶段与来源结构。共用方法包括记录靶标及构建体、输入来源、软件环境、历史命令、筛选标准、正负对照、文件哈希，并区分预测结构与实验依据。历史信息缺失时会明确标注，不凭推测补写。详见[方法与来源](METHODS.md)、[第三方来源与许可状态](THIRD_PARTY_SOURCES.md)及[项目状态](PROJECTS_STATUS.md)。
 
 RFdiffusion、ProteinMPNN、GPD、PCANN、ESM 和结构预测软件等第三方工具与权重仍归原权利人，并沿用各自许可。项目修改与运行结果同上游源码分开记录。
 
@@ -67,3 +67,4 @@ RFdiffusion、ProteinMPNN、GPD、PCANN、ESM 和结构预测软件等第三方�
 大型原始目录作为带版本的 GitHub Release 附件发布。每个归档含原始来源路径、归档路径、字节数和 SHA-256 的逐文件清单；恢复报告记录核验数量。目前完成恢复核验的归档为：AI-BinderDesign、GLP1R-reproduction 和 TfR1。KRAS 将在当前任务结束并检查输出后归档。完整 ChatGPT 账户导出按用户要求留在本地，不在此公开。
 
 原创代码在权利明确时采用 MIT；原创文档和数据在权利明确时采用 CC BY 4.0。第三方材料保留原许可，详见 [LICENSE-DATA.md](LICENSE-DATA.md)。
+
