@@ -19,6 +19,23 @@ def sha256(path: Path) -> str:
 
 
 def pid_alive(pid: int) -> bool:
+    if os.name == "nt":
+        # Native Windows PIDs cannot be checked reliably with ``os.kill(pid, 0)``
+        # on every Python build. Query the process handle directly instead.
+        import ctypes
+
+        kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
+        open_process = kernel32.OpenProcess
+        open_process.argtypes = (ctypes.c_uint32, ctypes.c_int, ctypes.c_uint32)
+        open_process.restype = ctypes.c_void_p
+        close_handle = kernel32.CloseHandle
+        close_handle.argtypes = (ctypes.c_void_p,)
+        close_handle.restype = ctypes.c_int
+        handle = open_process(0x1000, 0, pid)  # PROCESS_QUERY_LIMITED_INFORMATION
+        if handle:
+            close_handle(handle)
+            return True
+        return ctypes.get_last_error() == 5  # ERROR_ACCESS_DENIED means it exists.
     try:
         os.kill(pid, 0)
         return True
