@@ -12,7 +12,7 @@ A portfolio of computational protein-design projects, structural evaluations, re
 | [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R paper reproduction across sequence design, ColabFold, Boltz-2, PCANN and recovery stages | Seven source archives published; 4,055 unique archive paths restored and checked; reproduction deviations are recorded |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | Three rounds of TfR1 candidate design, source results, failure analysis and corrected claims | Source archive published; 4,338 files restored and checked; five computational candidates remain unvalidated |
 | [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Challenge 5 checkpoint reports zero qualified sequences; the active BoltzGen run and historical outputs are awaiting final archival |
-| [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | Reusable design workflow, templates, audit utilities and bounded case evidence | Source and templates published; case records remain under privacy and rights review |
+| [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | Reusable design workflow, templates, audit utilities and bounded case evidence | Source, templates, a bounded validation report, and selected de-identified cases published; additional records remain under privacy and rights review |
 
 ## Shared workflow and evidence standards
 
