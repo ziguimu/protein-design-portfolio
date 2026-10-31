@@ -50,8 +50,8 @@ def main() -> int:
             # Earlier project ZIPs used bytes/sha256; current assets use
             # published_bytes/published_sha256 and may include redaction metadata.
             files = [dict(item,
-                          published_bytes=item.get("published_bytes", item.get("bytes")),
-                          published_sha256=item.get("published_sha256", item.get("sha256")),
+                          published_bytes=item.get("published_bytes", item.get("archive_bytes", item.get("bytes"))),
+                          published_sha256=item.get("published_sha256", item.get("archive_sha256", item.get("sha256"))),
                           source_sha256=item.get("source_sha256", item.get("sha256", "")))
                      for item in files]
             report["files_expected"] = len(files)
