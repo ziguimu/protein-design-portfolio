@@ -11,7 +11,7 @@ A portfolio of computational protein-design projects, structural evaluations, re
 | [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign) | EGFR binder design and EGFR/TNF control-based structural evaluation; includes the original 28-slide report | EGFR and TNF source archives published; 1,588 files restored and SHA-256 checked |
 | [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R paper reproduction across sequence design, ColabFold, Boltz-2, PCANN and recovery stages | Seven source archives published; 4,055 unique archive paths restored and checked; reproduction deviations are recorded |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | Three rounds of TfR1 candidate design, source results, failure analysis and corrected claims | Source archive published; 4,338 files restored and checked; five computational candidates remain unvalidated |
-| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Challenge 5 checkpoint reports zero qualified sequences; the active BoltzGen run and historical outputs are awaiting final archival |
+| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Final archive includes the prior 864-design checkpoint and a 32-design follow-on screen; one candidate entered three-seed mutant/WT/apo confirmation, but none passed. Cumulative: 896 unique designs, zero qualified; computational only |
 | [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | Reusable design workflow, templates, audit utilities and bounded case evidence | Source, templates, a bounded validation report, and selected de-identified cases published; additional records remain under privacy and rights review |
 
 ## Shared workflow and evidence standards
@@ -31,8 +31,10 @@ Large source trees are distributed as versioned GitHub Release assets rather tha
 - [AI-BinderDesign archive](https://github.com/ziguimu/AI-BinderDesign/releases/tag/archive-2026-10-31)
 - [GLP1R reproduction archives](https://github.com/ziguimu/GLP1R-reproduction/releases/tag/archive-2026-10-31)
 - [TfR1 source archive](https://github.com/ziguimu/TfR1-binder-design/releases/tag/archive-2026-10-31)
+- [KRAS original archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31)
+- [KRAS follow-on screen archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2)
 
-KRAS archival will be added after the current run ends and its outputs are checked. The full ChatGPT account export is intentionally retained locally and is not included here.
+The original KRAS archive restored 25,266 files; the follow-on package restored 516 manifest-listed files (467 byte-identical source files and 49 privacy-transformed text files). The complete ChatGPT account export remains local and is not included.
 
 ## Licenses
 
@@ -49,7 +51,7 @@ Original code is MIT licensed where rights are established. Original documentati
 | [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign) | EGFR 结合剂设计、EGFR/TNF 对照结构评价及原始 28 页报告 | EGFR 与 TNF 归档已发布；1,588 个文件下载恢复并通过 SHA-256 校验 |
 | [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R 论文复现中的序列设计、ColabFold、Boltz-2、PCANN 与恢复阶段 | 七个归档已发布；4,055 个唯一归档路径校验通过；复现偏差有记录 |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | 三轮候选设计、原始结果、失败分析和结论更正 | 归档已发布；4,338 个文件校验通过；五个计算候选尚未实验验证 |
-| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | mutant/WT/apo 对照下的 KRAS G12D pMHC 结合剂设计和筛选 | Challenge 5 检查点记录合格序列为零；当前 BoltzGen 运行及历史产物待最终归档 |
+| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | mutant/WT/apo 对照下的 KRAS G12D pMHC 结合剂设计和筛选 | 最终归档包括此前 864 条设计检查点及后续 32 条筛选；1 条候选进入 mutant/WT/apo 三种子确认，但均未通过。累计 896 条独特设计，合格序列为零；均为计算结果 |
 | [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | 可复用工作流、模板、审计工具和有边界的案例证据 | 技能源码、模板、有限范围的验证报告和精选脱敏案例已发布；其他记录仍在进行隐私和权利审查 |
 
 ### 共用流程与证据边界
@@ -64,7 +66,7 @@ RFdiffusion、ProteinMPNN、GPD、PCANN、ESM 和结构预测软件等第三方�
 
 ### 恢复与校验
 
-大型原始目录作为带版本的 GitHub Release 附件发布。每个归档含项目相对来源路径、归档路径、字节数和 SHA-256 的逐文件清单，不公开本机绝对路径。脱敏改写的文本文件分别记录源件与发布件哈希及替换次数；相应源文本留在本地。恢复报告记录核验数量。目前完成恢复核验的归档为：AI-BinderDesign、GLP1R-reproduction 和 TfR1。KRAS 将在当前任务结束并检查输出后归档。完整 ChatGPT 账户导出按用户要求留在本地，不在此公开。
+大型原始目录作为带版本的 GitHub Release 附件发布。每个归档含项目相对来源路径、归档路径、字节数和 SHA-256 的逐文件清单，不公开本机绝对路径。脱敏改写的文本文件分别记录源件与发布件哈希及替换次数；相应源文本留在本地。恢复报告记录核验数量。目前已完成恢复核验的项目归档为：AI-BinderDesign、GLP1R-reproduction、TfR1-binder-design 和 KRAS-G12D-pMHC-design。KRAS 原始归档恢复 25,266 个文件；后续筛选包恢复 516 个清单文件（467 个字节与来源相同，49 个为隐私转换文本）。完整 ChatGPT 账户导出按用户要求留在本地，不在此公开。
 
 原创代码在权利明确时采用 MIT；原创文档和数据在权利明确时采用 CC BY 4.0。第三方材料保留原许可，详见 [LICENSE-DATA.md](LICENSE-DATA.md)。
 
