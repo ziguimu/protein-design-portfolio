@@ -11,7 +11,7 @@ A portfolio of computational protein-design projects, structural evaluations, re
 | [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign) | EGFR binder design and EGFR/TNF control-based structural evaluation; includes the original 28-slide report | EGFR and TNF source archives published; 1,588 files restored and SHA-256 checked |
 | [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R paper reproduction across sequence design, ColabFold, Boltz-2, PCANN and recovery stages | Seven source archives published; 4,055 unique archive paths restored and checked; reproduction deviations are recorded |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | Three rounds of TfR1 candidate design, source results, failure analysis and corrected claims | Source archive published; 4,338 files restored and checked; five computational candidates remain unvalidated |
-| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Final archive includes the prior 864-design checkpoint, a 32-design follow-on screen with one unqualified confirmation candidate, and a later 32-sequence Asp6 batch whose mutant gate passed 0/32. The Asp6 sequences were all historical duplicates, so cumulative unique remains 896; zero qualified, computational only |
+| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Four Releases cover the original archive and three follow-on rounds; the latest screened 64 Asp6 designs, with 0/2 initial-gate passers qualifying after three-seed confirmation. 960 unique designs within scanned record scope; computational only |
 | [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | Reusable design workflow, templates, audit utilities and bounded case evidence | Source, templates, a bounded validation report, and selected de-identified cases published; additional records remain under privacy and rights review |
 
 ## Shared workflow and evidence standards
@@ -52,7 +52,7 @@ Original code is MIT licensed where rights are established. Original documentati
 | [AI-BinderDesign](https://github.com/ziguimu/AI-BinderDesign) | EGFR 结合剂设计、EGFR/TNF 对照结构评价及原始 28 页报告 | EGFR 与 TNF 归档已发布；1,588 个文件下载恢复并通过 SHA-256 校验 |
 | [GLP1R-reproduction](https://github.com/ziguimu/GLP1R-reproduction) | GLP-1R 论文复现中的序列设计、ColabFold、Boltz-2、PCANN 与恢复阶段 | 七个归档已发布；4,055 个唯一归档路径校验通过；复现偏差有记录 |
 | [TfR1-binder-design](https://github.com/ziguimu/TfR1-binder-design) | 三轮候选设计、原始结果、失败分析和结论更正 | 归档已发布；4,338 个文件校验通过；五个计算候选尚未实验验证 |
-| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | mutant/WT/apo 对照下的 KRAS G12D pMHC 结合剂设计和筛选 | 最终归档包括此前 864 条设计检查点及后续 32 条筛选；1 条候选进入 mutant/WT/apo 三种子确认，但均未通过。累计 896 条独特设计，合格序列为零；均为计算结果 |
+| [KRAS-G12D-pMHC-design](https://github.com/ziguimu/KRAS-G12D-pMHC-design) | Mutant/WT/apo control-based KRAS G12D pMHC binder design and screening | Four Releases cover the original archive and three follow-on rounds; the latest screened 64 Asp6 designs, with 0/2 initial-gate passers qualifying after three-seed confirmation. 960 unique designs within scanned record scope; computational only |
 | [ai-protein-design](https://github.com/ziguimu/ai-protein-design) | 可复用工作流、模板、审计工具和有边界的案例证据 | 技能源码、模板、有限范围的验证报告和精选脱敏案例已发布；其他记录仍在进行隐私和权利审查 |
 
 ### 共用流程与证据边界
