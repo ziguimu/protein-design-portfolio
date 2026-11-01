@@ -34,6 +34,8 @@ Large source trees are distributed as versioned GitHub Release assets rather tha
 - [KRAS original archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31)
 - [KRAS follow-on screen archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch2)
 - [KRAS Asp6 follow-on archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-10-31-batch3)
+- [KRAS Asp6 candidate 01 screen and confirmation archive](https://github.com/ziguimu/KRAS-G12D-pMHC-design/releases/tag/archive-2026-11-01-batch4)
+- [Final archive and cleanup audit](ARCHIVE_AUDIT_2026-11-01.md)
 
 The original KRAS archive restored 25,266 files; the first follow-on package restored 516 manifest-listed files (467 byte-identical source files and 49 privacy-transformed text files); the Asp6 package restored 1,119 files (1,079 byte-identical and 40 privacy-transformed). The complete ChatGPT account export remains local and is not included.
 
